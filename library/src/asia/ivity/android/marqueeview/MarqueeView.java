@@ -109,9 +109,9 @@ public class MarqueeView extends LinearLayout {
         extractAttributes(attrs);
     }
 
-    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
+    @TargetApi(Build.VERSION_CODES.FROYO)
     public MarqueeView(Context context, AttributeSet attrs, int defStyle) {
-        super(context, attrs, defStyle);
+        super(context, attrs);
 
         init(context);
         extractAttributes(attrs);
